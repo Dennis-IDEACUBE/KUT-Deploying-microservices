@@ -62,7 +62,7 @@ sudo systemctl restart network
 | ----------------------- | ------------------------- | ------------------------------------------------- | -------------- | --------- |
 | Windows Clinet          | windev                    | 2 vCPU, 4 GB RAM, 100GB Disk EACH                 | 192.168.15.10  | 22010     |
 | GitLab Community Server | gitlab                    | 2 vCPU, 4 GB RAM, 100GB Disk EACH                 | 192.168.15.20  | 22020     |
-| Jenkins & Docker        | jeknis                    | 2 vCPU, 4 GB RAM(or 4 vCPU, 8GB), 100B Disk EACH  | 192.168.15.30  | 22030     |
+| Jenkins & Docker        | jenkins                   | 2 vCPU, 4 GB RAM(or 4 vCPU, 8GB), 100B Disk EACH  | 192.168.15.30  | 22030     |
 
 ### Install Commons
 sudo apt install net-tools vim nano iputils-ping netcat openssh-server iputils-ping
