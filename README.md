@@ -1,6 +1,6 @@
 # Deploying microservices
 
-## How to Install Kubernetes on Ubuntu 22.04
+## How to Install Kubernetes on Ubuntu 22.04 and so on
 
 ## How to disable cloud-init in Ubuntu
 
