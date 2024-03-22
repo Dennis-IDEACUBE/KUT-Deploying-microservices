@@ -181,7 +181,7 @@ https://docs.docker.com/engine/install/ubuntu/
 ### Installing Kubernetes Cluster on Ubuntu 22.04 using kubeadm
 | Server Role    | Server Hostname           | Specs                             | IP Address     | Host Port |
 | -------------- | ------------------------- | --------------------------------  | -------------- | --------- |
-| Master Node    | k8s-contro                | 2 vCPU, 4 GB RAM, 100GB Disk EACH | 192.168.15.93  | 22093     |
+| Master Node    | k8s-control               | 2 vCPU, 4 GB RAM, 100GB Disk EACH | 192.168.15.93  | 22093     |
 | Worker Node #1 | k8s-1                     | 2 vCPU, 4 GB RAM, 100GB Disk EACH | 192.168.15.94  | 22094     |
 | Worker Node #2 | k8s-2                     | 2 vCPU, 4 GB RAM, 100B Disk EACH  | 192.168.15.95  | 22095     |
 
