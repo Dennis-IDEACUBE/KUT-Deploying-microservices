@@ -24,6 +24,27 @@
 
       sudo reboot
 
+### Setting Network
+/etc/netplan/00-installer-config.yaml
+
+     # This is the network config written by 'subiquity'
+     network:
+       ethernets:
+         enp0s3:
+           addresses:
+           - 192.168.15.93/24
+           nameservers:
+             addresses:
+             - 168.126.63.1
+             - 8.8.8.8
+             search: []
+           routes:
+           - to: default
+             via: 192.168.15.1
+       version: 2
+
+sudo systemctl restart network
+
 ### Windows Client, GitLab Community Server, Jenkins & Docker
 | Server Role             | Server Hostname           | Specs                                             | IP Address     | Host Port |
 | ----------------------- | ------------------------- | ------------------------------------------------- | -------------- | --------- |
