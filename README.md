@@ -32,7 +32,7 @@
 
 ### Setting HostName & Hosts & Network
 
-cidr : 192.168.15.0/15
+cidr : 192.168.15.0/24
 ip : 192.168.15.x
 gateway : 192.168.15.1
 dns : 168.126.63.1
