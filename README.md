@@ -4,8 +4,8 @@
 
 ## VirtualBox NatNetwork
 
-![](https://github.com/Dennis-IDEACUBE/KUT-Deploying-microservices/blob/main/NatNetwork1.png) | width=100)
-![](https://github.com/Dennis-IDEACUBE/KUT-Deploying-microservices/blob/main/NatNetwork2.png) | width=100)
+![](https://github.com/Dennis-IDEACUBE/KUT-Deploying-microservices/blob/main/NatNetwork1.png) | width=50)
+![](https://github.com/Dennis-IDEACUBE/KUT-Deploying-microservices/blob/main/NatNetwork2.png) | width=50)
 
 
 ## How to disable cloud-init in Ubuntu
