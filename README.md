@@ -24,7 +24,13 @@
 
       sudo reboot
 
-### Setting Network
+### Setting HostName & Hosts & Network
+
+cidr : 192.168.15.0/15
+ip : 192.168.15.x
+gateway : 192.168.15.1
+dns : 168.126.63.1
+
 /etc/netplan/00-installer-config.yaml
 
      # This is the network config written by 'subiquity'
@@ -32,7 +38,7 @@
        ethernets:
          enp0s3:
            addresses:
-           - 192.168.15.93/24
+           - 192.168.15.93/24 # change ip address
            nameservers:
              addresses:
              - 168.126.63.1
