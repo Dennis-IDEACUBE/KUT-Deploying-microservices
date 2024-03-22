@@ -158,7 +158,7 @@ https://docs.docker.com/engine/install/ubuntu/
     sudo apt -y full-upgrade && sudo reboot -f  
 
 ### Install Cluster Kubernetes 1.29.x on Ubuntu 22.04
-https://computingforgeeks.com/install-kubernetes-cluster-ubuntu-jammy/
+[https://computingforgeeks.com/install-kubernetes-cluster-ubuntu-jammy/](https://www.youtube.com/watch?v=I9goyp8mWfs)
 
     ### ALL: 
     
