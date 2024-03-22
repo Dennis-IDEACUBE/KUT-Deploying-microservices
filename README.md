@@ -2,6 +2,10 @@
 
 ## How to Install Kubernetes on Ubuntu 22.04 and so on
 
+## VirtualBox NatNetwork
+
+
+
 ## How to disable cloud-init in Ubuntu
 
 ### Prevent start
