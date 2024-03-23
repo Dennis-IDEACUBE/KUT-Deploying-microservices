@@ -89,13 +89,13 @@ sudo apt install net-tools vim nano iputils-ping netcat openssh-server iputils-p
 ### GitLab Community Server
 https://about.gitlab.com/install/#ubuntu
 
-      sudo apt-get update
-      sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
-      curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
-      sudo apt install gitlab-ce
-      sudo nano /etc/gitlab/gitlab.rb
-      external_url 'http://192.168.15.20'
-      sudo gitlab-ctl reconfigure
+      1. sudo apt-get update
+      2. sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
+      3. curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+      4. sudo apt-get install gitlab-ce
+      5. sudo nano etc/gitlab/gitlab.rb
+         => EXTERNAL_URL="http://192.168.15.20"
+      6. gitlab-ctl reconfigure
 
       sudo cat /etc/gitlab/initial_root_password
 
