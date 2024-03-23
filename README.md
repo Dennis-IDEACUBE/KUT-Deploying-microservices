@@ -93,6 +93,11 @@ https://about.gitlab.com/install/#ubuntu
       sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
       curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
       sudo apt install gitlab-ce
+      sudo nano /etc/gitlab/gitlab.rb
+      external_url 'http://192.168.15.20'
+      sudo gitlab-ctl reconfigure
+
+      sudo cat /etc/gitlab/initial_root_password
 
 ### Jenkins
 https://www.jenkins.io/doc/book/installing/linux/
