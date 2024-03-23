@@ -8,6 +8,7 @@ http://naver.me/FWfpVivd
 <img src="https://github.com/Dennis-IDEACUBE/KUT-Deploying-microservices/blob/main/NatNetwork1.png" width=400/>
 <img src="https://github.com/Dennis-IDEACUBE/KUT-Deploying-microservices/blob/main/NatNetwork2.png" width=400/>
 
+sudo apt install net-tools vim nano iputils-ping
 
 ## How to disable cloud-init in Ubuntu
 
