@@ -1,0 +1,26 @@
+node {
+    APP_NAME = 'myapp'
+    RELEASE = '1.0.0'
+    DOCKER_USER = 'dennis1945'
+    DOCKER_PASS = 'dockerlogin'
+    IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
+    IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
+    stage("Cleanup Workspace"){
+        cleanWs()
+    }
+    stage("Checkout from SCM"){
+        git branch: 'master', credentialsId: 'gitlab_idpwd', url: 'http://192.168.15.20/root/myapp.git'
+    }
+    stage("Build Application"){
+        sh "mvn clean package"
+    }
+    stage("Test Application"){
+        sh "mvn test"
+    }
+    stage("Build Docker Image") {
+    	docker_image = docker.build "${IMAGE_NAME}:${IMAGE_TAG}"        
+    }
+    stage("Docker Compose") {
+    	sh "IMAGE_NAME=${IMAGE_NAME}:${IMAGE_TAG} docker compose up -d"   
+    }
+}
