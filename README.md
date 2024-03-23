@@ -91,7 +91,8 @@ https://about.gitlab.com/install/#ubuntu
 
       sudo apt-get update
       sudo apt-get install -y curl openssh-server ca-certificates tzdata perl
-      curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh | sudo bash
+      curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+      sudo apt install gitlab-ce
 
 ### Jenkins
 https://www.jenkins.io/doc/book/installing/linux/
