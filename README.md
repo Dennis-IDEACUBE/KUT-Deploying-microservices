@@ -199,7 +199,7 @@ https://www.itsgeekhead.com/tuts/kubernetes-129-ubuntu-22-04-3.txt
     
     sudo su
     
-    printf "\n192.168.15.93 k8s-control\n192.168.15.94 k8s-1\n192.168.15.95 k8s-1\n192.168.15.30 jenkins\n192.168.15.20 gitlab\n192.168.15.10 windev\n\n" >> /etc/hosts
+    printf "\n192.168.15.93 k8s-control\n192.168.15.94 k8s-1\n192.168.15.95 k8s-2\n192.168.15.30 jenkins\n192.168.15.20 gitlab\n192.168.15.10 windev\n\n" >> /etc/hosts
     
     printf "overlay\nbr_netfilter\n" >> /etc/modules-load.d/containerd.conf
     
