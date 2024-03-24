@@ -62,7 +62,7 @@ sudo systemctl restart network
 ### Windows Client, GitLab Community Server, Jenkins & Docker
 | Server Role             | Server Hostname           | Specs                                             | IP Address     | Host Port |
 | ----------------------- | ------------------------- | ------------------------------------------------- | -------------- | --------- |
-| Windows Clinet          | windev                    | 2 vCPU, 4 GB RAM, 100GB Disk EACH                 | 192.168.15.10  | 22010     |
+| Windows Clinet          | windev                    | 2 vCPU, 4 GB RAM, 100GB Disk EACH                 | 192.168.15.10  |           |
 | GitLab Community Server | gitlab                    | 2 vCPU, 4 GB RAM, 100GB Disk EACH                 | 192.168.15.20  | 22020     |
 | Jenkins & Docker        | jenkins                   | 2 vCPU, 4 GB RAM(or 4 vCPU, 8GB), 100B Disk EACH  | 192.168.15.30  | 22030     |
 
