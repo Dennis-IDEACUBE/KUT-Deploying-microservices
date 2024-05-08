@@ -1,5 +1,4 @@
-# Deploying microservices
-http://naver.me/FWfpVivd
+## Deploying microservices
 
 ## How to Install Kubernetes on Ubuntu 22.04 and so on
 
